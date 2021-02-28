@@ -12,22 +12,21 @@ const AboutSection = () => {
       <Description>
         <motion.div>
           <Hide>
-            <motion.h2 variants={titleAnim}>We work to make</motion.h2>
+            <motion.h2 variants={titleAnim}>Looking for a Website?</motion.h2>
           </Hide>
           <Hide>
             <motion.h2 variants={titleAnim}>
-              your <span>dreams</span> come
+              I am a <span>Front-End Web Developer</span> 
             </motion.h2>
           </Hide>
           <Hide>
-            <motion.h2 variants={titleAnim}>true.</motion.h2>
+            <motion.h2 variants={titleAnim}>Lets work together.</motion.h2>
           </Hide>
         </motion.div>
         <motion.p variants={fade}>
-          Contact us for any photography or videography ideas that you have. We
-          have professionals with amazing skills.
+          Are you a freelance designer or developer and am in need of a portfolio website? Contact me and we can work together!
         </motion.p>
-        <motion.button variants={fade}>Contact Us</motion.button>
+        <motion.button variants={fade}>Contact Me</motion.button>
       </Description>
       <Image>
         <motion.img variants={photoAnim} src={home1} alt="guy with a camera" />
